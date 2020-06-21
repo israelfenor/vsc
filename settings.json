@@ -3,5 +3,6 @@
     "window.menuBarVisibility": "default",
     "window.titleBarStyle": "custom",
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Monokai"
+    "workbench.colorTheme": "Monokai",
+    "explorer.confirmDelete": false
 }
