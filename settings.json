@@ -4,5 +4,19 @@
     "window.titleBarStyle": "custom",
     "editor.minimap.enabled": false,
     "workbench.colorTheme": "Monokai",
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.formatOnSave": true,
+    "[markdown]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.wordWrap": "off",
+        "editor.quickSuggestions": false
+    },
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "files.associations": {
+        "*.erd": "plaintext"
+    }
 }
+
