@@ -47,6 +47,12 @@
     },
     {
         "key": "ctrl+b right",
-        "command": "workbench.action.focusActiveEditorGroup"
+        "command": "markdown.showPreviewToSide",
+        "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+k v",
+        "command": "-markdown.showPreviewToSide",
+        "when": "!notebookEditorFocused && editorLangId == 'markdown'"
     }
 ]
