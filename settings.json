@@ -3,20 +3,22 @@
     "window.menuBarVisibility": "default",
     "window.titleBarStyle": "custom",
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Nord",
     "explorer.confirmDelete": false,
-    "todo-tree.tree.showScanModeButton": false,
-    "editor.formatOnSave": true,
     "[markdown]": {
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
-        "editor.wordWrap": "off",
         "editor.quickSuggestions": false
     },
-    "gitlens.codeLens.authors.enabled": false,
-    "gitlens.codeLens.recentChange.enabled": false,
-    "files.associations": {
-        "*.erd": "plaintext"
+    "editor.fontSize": 16,
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true,
+    "extensions.ignoreRecommendations": true,
+    "workbench.colorCustomizations": {
+        "[Nord]": {
+            "tab.activeBackground": "#2e3440",
+            "tab.inactiveBackground": "#3b4252",
+            "tab.hoverBackground": "#2e3440"
+        }
     }
 }
-
